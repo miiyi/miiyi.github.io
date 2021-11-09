@@ -1,0 +1,202 @@
+ol,ul{
+    margin-bottom: 24px;
+}
+
+.sidebar-content .portrait {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    overflow: hidden;
+    border: solid 2px #fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+h1{
+    font-family: 'Nothing You Could Do', 'Noto Serif TC', serif ,cursive;
+    margin-bottom: 0;
+}
+.profession{
+    font-size: 12px;
+    font-family: 'Nothing You Could Do', 'Noto Serif TC', serif, cursive;
+    letter-spacing: 1px;
+    color: #acacac;
+    margin-bottom: 24px;
+    white-space: nowrap;
+
+}
+
+.box-masonry {
+    box-shadow: 0px 2px 4px #a2a2a24a;
+  }
+  
+
+.small-navbar-heading{
+    display: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    body{
+        width: 100%;
+        padding-bottom:40px ;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    .content-column-content{
+        padding: 0;
+    }
+    .content-column {
+        padding-top:60px;
+    }
+
+
+    /*  mobile name */
+    .small-navbar-heading{
+        display: block;
+        font-size: 32px;
+        position: absolute;
+        top: 4px;
+        left: calc(50vw - 73.33px);
+        z-index: 10;
+    }
+
+
+    /*  mobile menu */
+    .sidebar-content{
+        padding: 0;
+    }
+
+    .sidebar-menu{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        display: flex;
+        margin-bottom: 0;
+        padding: 0 2vw 0 100px;
+        justify-content: space-around;
+        align-items: center;
+        background: #6aa8a0;
+        height: 50px;   
+    }
+    .small-navbar{
+        pointer-events:none;
+    }
+
+    .active #sidebar{
+        top: 34vh;
+        box-shadow: 0px -5px 60px #4e4e4e96;
+    }
+
+    .small-navbar .btn-ghost{
+        padding: 6px 10px;
+        border-radius: 50%;
+        margin: -24px 0px 4px 26px;
+        pointer-events: auto;
+        width: 56px;
+        height: 56px;
+        outline: none;
+
+    }
+
+    .sidebar-menu li {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .sidebar-menu li a {
+        color: #e7fffc ;
+        height: 40px;
+        display: block;
+        line-height: 60px;
+    }
+
+    .sidebar-menu li:before{
+        content: '\f007';
+        margin: 0;
+        color: #e7fffc;
+        display: block;
+        text-align: center;
+        /* width: 34px; */
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: -21px;
+    }
+
+    .sidebar-menu li:nth-child(1)::before{
+        content: '\f0f6';
+
+    }
+    .sidebar-menu li:nth-child(2)::before{
+        content: '\f115';
+    }
+    .sidebar-menu li:nth-child(3)::before{
+        content: '\f1d9';
+    }
+
+    .fa-user:before{
+        font-size: 30px;
+    }
+
+    .sidebar-menu li.active:before , .sidebar-menu li.active a {
+        color: #ffc9b7;
+    }
+    .sidebar-menu li.active a{
+        font-weight:normal;
+    }
+
+    /*  business card */
+    #sidebar{
+        width: 100vw;
+        z-index: 99;
+        background: #f4f1e8;
+        height: 66vh;
+        border-radius: 30px 30px 0 0;
+        top: 100vh;
+        position: fixed;
+        transition-duration: 0.5s;
+        padding: 10px 20px;
+    }
+
+    .sidebar-heading{
+        font-size: 24px;
+    }
+    .profession{
+        margin-bottom: 16px;
+
+    }
+    .sidebar-content .portrait{
+        width: 36vw;
+        height: 36vw;
+    }
+
+}
+@media screen and (max-width: 360px){
+    .active #sidebar{
+        top: 22vh;    
+    }
+
+    #sidebar{
+        height: 78vh;
+    }
+
+}
+
+::selection {
+    background: #fff0c7;
+    }
+    
+    img::selection {
+    background: transparent;
+    background: #fff0c7;
+
+    }
+    
+

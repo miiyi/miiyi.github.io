@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on MinnaLee</title>
+    <link>https://himinna.com/m/portfolio/</link>
+    <description>Recent content in Portfolios on MinnaLee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 05 Nov 2021 19:41:01 +0530</lastBuildDate><atom:link href="https://himinna.com/m/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1212禮物明星選拔</title>
+      <link>https://himinna.com/m/portfolio/1212gifts/</link>
+      <pubDate>Fri, 05 Nov 2021 19:41:01 +0530</pubDate>
+      
+      <guid>https://himinna.com/m/portfolio/1212gifts/</guid>
+      <description>&lt;p&gt;雙十二禮物特企，最想收到什麼禮物？
+什麼是你的送禮首選呢？&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;PROJECT  |  活動網頁設計 Web Design&lt;br&gt;
+RESOURCES  |  shutterstock、eslite&lt;br&gt;
+DURATION  |   Dec. 2020 , 5 Days&lt;br&gt;
+ROLE  |  Designer、F2E&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>活動頁版型開發</title>
+      <link>https://himinna.com/m/portfolio/pv/</link>
+      <pubDate>Fri, 05 Nov 2021 19:41:01 +0530</pubDate>
+      
+      <guid>https://himinna.com/m/portfolio/pv/</guid>
+      <description>&lt;p&gt;優化工作流程，增加網站的一致性，讓不會寫程式的同事也能輕易上手。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;PROJECT  |  版型開發&lt;br&gt;
+DURATION  |   Nov. 2020 - Mar. 2021&lt;br&gt;
+ROLE  |  F2E&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
