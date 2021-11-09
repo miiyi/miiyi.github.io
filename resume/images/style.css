@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	font-size: 14px;
+}
+head,body { 
+	margin: 0 auto; 
+	padding: 0; 
+	overflow-x: hidden; 
+	max-width: 1920px;  
+	font-family: 'PT Sans','Noto Sans TC', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration:none; 
+	display: inline-block;
+}
+ul{
+	margin-bottom: 30px;
+}
+li{
+	list-style: none;
+	text-align: left;
+	font-size: 1rem;
+	line-height: 1.4rem;
+	margin: 4px 0;
+}
+body {
+	padding: 0; 
+}
+
+
+
+h2 {
+	font-size: 1.4rem; 
+	line-height: 2rem; 
+	color: #3d5997; 
+	text-align: left;
+	white-space:nowrap;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+h3{
+	font-size: 1.3rem;
+	line-height: 1.4rem; 
+	color: #000;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 8px;
+}
+span{
+	padding: 2px 6px;
+	border-radius: 10px;
+	background: #f5f5f5;
+	margin: 8px 8px 8px 0;
+	display: inline-block;
+	color: #8e8e8e;
+}
+span::before{
+	content: '＃';
+}
+p{
+	font-size: 1.1rem;
+	line-height: 2rem;
+	text-align: justify;
+}
+
+.container { 
+	position: relative; 
+	max-width: 1000px; 
+	border: none; 
+	margin: 20px auto;
+	padding: 30px 60px 30px 70px;
+	box-shadow: 1px 1px 5px #e2e2e2;
+	border-right: solid 10px #3d5997;
+	background: url(bg.png)bottom left /45% no-repeat;
+}
+	
+.row{
+	display: flex;
+}
+
+.col-2{
+	flex: 0.8;
+	margin: 10px 20px;
+}
+.col-4{
+	flex: 2;
+	margin: 10px 20px;
+}
+
+.sign{
+	max-width: 270px;
+}
+.sign img{
+	width: 100%;
+}
+.info ul{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	white-space: nowrap;
+}
+.info  li{
+	display: block;
+	margin-bottom: 8px;
+}
+.info .name::before ,.info .phone::before ,.info .mail::before ,.info .edu::before {
+	content: '';
+    width: 18px;
+	height: 12px;
+	display: inline-block;
+	margin-right: 8px;
+}
+.info .name::before{
+	background: url(user-alt.svg) top center no-repeat;
+}
+.info .phone::before{
+	background: url(mobile-alt.svg) top center no-repeat;
+	height: 15px
+}
+.info .mail::before{
+	background: url(envelope.svg) top center no-repeat;
+}
+.info .edu::before{
+	background: url(graduation-cap.svg) top center no-repeat;
+}
+ul .pro::after , ul .inter::after, ul .beginner::after{
+	font-size: 0.8rem;
+	margin-left: 10px;
+	padding: 0px 4px;
+	color: #929292;
+	text-transform: uppercase;
+	background: #f5f5f5;
+}
+
+ul .pro::after{
+	content: 'profivient';
+}
+ul .inter::after{
+	content: 'intermediate';
+}
+ul .beginner::after{
+	content: 'beginner';
+}
+
+/* experience */
+.list h3{
+ margin: 0 auto;
+}
+.list p{
+	color:#8e8e8e;
+}
+.list p small{
+ font-size: 0.8%;
+ margin-left:8px ;
+}
+.list li{
+	list-style: disc;
+	margin-left:18px;
+	margin-bottom: 8px;
+}
+.mobile{
+	display: none;
+}
+.pc{
+	display: block;
+}
+
+
+@media screen and ( max-width: 830px ){
+	html {
+		font-size: 13px;
+	}	
+	.container { 
+		margin: auto;
+		padding: 20px 30px 20px 40px;
+	}
+}
+@media screen and ( max-width: 720px ){
+	.container { 
+		padding: 10px 0px 10px 0px;
+		border-right: none;
+	}
+	.col-2{
+		margin: 10px 0px 10px 20px;
+	}
+
+}
+@media screen and ( max-width: 640px ){
+	.mobile{
+		display: block;
+	}
+	.pc{
+		display: none;
+	}
+	ul{
+		margin-bottom: 16px;
+	}
+	
+	span{
+		margin: 4px auto;
+	}
+	.container { 
+		padding: 0;
+		border-right: none;
+		background: url(bg2.png) 80% 103% /60% no-repeat;
+	}
+	.row{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.col-2{
+		flex: auto;
+		margin: 10px 20px;
+		order: 2;
+	}
+	.col-4{
+		flex: auto;
+		margin: 10px 20px;
+	}
+	.sign{
+		max-width: 45vw;
+	}
+	.info {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+	
+	.skill{
+		display: flex;
+		justify-content: start;
+	}
+	.skill ul{
+		margin-bottom: 0;
+		margin-right: 30px;
+	}
+	.list li{
+		font-size: 1.1rem;
+		line-height: 1.8rem;	
+	}
+	.tools{
+		margin-left: 30px;
+		margin-top: -10px;
+	}
+	
+}
+@media screen and ( max-width: 460px ){
+	.container { 
+		padding: 0;
+		border-right: none;
+		background: url(bg2.png) 120% 102% /80% no-repeat;
+	}
+}
+
+@media screen and ( max-width: 360px ){
+	html {
+		font-size: 12px;
+	}
+	.container { 
+		background: url(bg2.png) 120% 100% /80% no-repeat;
+	}
+
+	.col-2 , .col-4{
+		margin: 10px;
+	}
+	.skill{
+		display: flex;
+		justify-content: space-between;
+	}
+	.skill ul{
+		margin-right: 0;
+	}
+
+	.info {
+		top: 10px;
+		right: 10px;
+	}
+	.tools{
+		margin-top: -20px;
+		margin-left: 20px;
+	}
+
+
+		
+}
+
