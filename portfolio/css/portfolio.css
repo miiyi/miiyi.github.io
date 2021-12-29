@@ -238,6 +238,8 @@ p{
     z-index: -1;
 	animation: circle 30s linear infinite;
 	transform-origin:80px 80px;
+	pointer-events: none;
+
 }
 .circle svg{
 	display: block;
@@ -291,14 +293,20 @@ p{
 		font-size: 1.4rem;
 		padding: 3vw 0;
 		height: calc(100vh - 6vw - 4px);
-		position:sticky;
-		top: 2vw;
+		position:fixed;
+		top: 3vw;
 		transition-duration: 0.5s;
 		z-index: 10;
 		
 	}
+	.about h2{
+		left: 3.5vw;
+	}
+	.portfolio h2{
+		right: 4vw;
+	}
 	.container{
-		height: calc(100vh - 4vw);
+		height: auto;
 		margin: 2vw;
 	}
 	.about , .work {
@@ -319,16 +327,17 @@ p{
 		height: 12vw;
 		transform: rotate(-90deg) translate(2vw, 4vw);
 		width: 2vw;
+		position: relative;
 
 	}
 	.nav{
-		top: 0;
+		/* top: 0;
 		height: 23vw;
 		align-items: end;
 		margin: -20vw 0 5vw 0;
 		position: sticky;
 		border-bottom: solid 1px;
-		z-index: 9;
+		z-index: 9; */
 		background: #fff8ee;
 	}
 	.nav li{
@@ -394,8 +403,9 @@ p{
 
 
 	#gotop {
-		width:30px;
-		height:40px;
+		width:11vw;
+		height:10vw;
+		bottom: 10vw;
 	}
 	
 }

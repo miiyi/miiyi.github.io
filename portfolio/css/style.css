@@ -239,8 +239,9 @@ ol li{
 		width: 1px;
 	}
 	#gotop {
-		width:30px;
-		height:40px;
+		width:11vw;
+		height:10vw;
+		bottom: 10vw;
 	}
 
 	html{
@@ -250,7 +251,7 @@ ol li{
 		font-size: 1.6rem;
 	}
 	.container{
-		height: calc(100vh - 6vw);
+		height: auto;
 		margin: 3vw;
 	}
 	
@@ -336,7 +337,7 @@ ol li{
 }
 
 
-@media screen and ( max-width: 720px ){
+@media screen and ( max-width: 769px ){
 	.mixing{
 		flex-direction: column;
 		padding: 0;
