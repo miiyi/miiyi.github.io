@@ -82,6 +82,7 @@ h1{
     font-weight: 400;
 	margin-bottom: 20px;
 	letter-spacing: 1px;
+	white-space:nowrap;
 }
 
 h2{
@@ -206,7 +207,7 @@ p{
 .about .portrait{
 	flex: 1;
     max-width: 180px;
-    transform: translate(-30px, 20px) rotate(9deg);
+    transform: translate(-30px, 0px) rotate(9deg);
     margin: 40px;
 }
 .about .font{
@@ -229,7 +230,7 @@ p{
 }
 .about .cat2{
 	width: 230px;
-    transform: translate(20px, -160px) rotate(-7deg);
+    transform: translate(20px, -100px) rotate(-7deg);
 }
 
 .circle{
@@ -296,9 +297,10 @@ p{
 		padding: 3vw 0;
 		height: calc(100vh - 6vw - 4px);
 		position:fixed;
-		top: 3vw;
+		top: 13vw;
 		transition-duration: 0.5s;
 		z-index: 10;
+		background: none;
 		
 	}
 	.about h2{
@@ -330,6 +332,7 @@ p{
 		transform: rotate(-90deg) translate(2vw, 4vw);
 		width: 2vw;
 		position: relative;
+		top: 3vw;
 
 	}
 	.nav{
@@ -373,7 +376,7 @@ p{
 	}
 	.about .font{
 		flex: 1;
-		padding: 5vw 2vw;
+		padding: 5vw 1vw 5vw 5vw;
 		max-width: 650px;
 	}
 	.about img{
@@ -405,9 +408,9 @@ p{
 
 
 	#gotop {
-		width:11vw;
+		width:9vw;
 		height:10vw;
-		bottom: 10vw;
+		bottom: 10vh;
 	}
 	
 }

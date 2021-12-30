@@ -239,9 +239,9 @@ ol li{
 		width: 1px;
 	}
 	#gotop {
-		width:11vw;
+		width:9vw;
 		height:10vw;
-		bottom: 10vw;
+		bottom: 10vh;
 	}
 
 	html{
