@@ -61,6 +61,13 @@ p{
 	color: #0a2d40;
 	text-align: justify;
 }
+p span{
+	font-size: 0.8rem;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	margin-right: 10px;
+}
 
 .container { 
 	position: relative; 
@@ -98,6 +105,7 @@ button{
 	transition: all 0.2s ease;
 	position: relative;
 	overflow: hidden;
+	margin: 10px 20px 10px 0;
 }
 button a{
     color: #fff;
@@ -152,18 +160,18 @@ button::after{
 }
 .list img{
 	width: 100%;
-	max-width: 300px;
+	max-width: 360px;
 }
-.list span{
+.list .text{
 	margin: auto 20px;
 	padding: 20px 0;
 }
-.list span h3{
+.list .text h3{
 	font-size: 1.2rem;
 	margin: 10px 0;
 	color: #192a6c;
 }
-.list span p{
+.list .text p{
 	font-size: 1rem;
 	line-height: 1.6rem;
 	color: #7d858a;
