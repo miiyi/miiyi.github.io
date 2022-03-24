@@ -177,6 +177,19 @@ button:hover{
 	color: #fff;
 	cursor: pointer;
 }
+
+.disabled{
+	color: #c5c5c5;
+	border: none;
+	background: #dadada;
+}
+.disabled:hover{
+	transform:none;
+	background: #dadada;
+	color: #c5c5c5;
+	cursor: no-drop;
+}
+
 ol li{
 	list-style: square;
 	margin: 5px 0 5px 20px;
@@ -280,6 +293,9 @@ pre{
 		position: relative;
 		
 	}
+	.infobox .font h2{
+		margin: 0 0 6px;
+	}
 	.pic{
 		flex: content;
 		border: none;
@@ -350,11 +366,11 @@ pre{
 
 }
 .block .pic{
-	border: none;
+	/* border: none; */
 
 }
 .block .font{
-	position: relative;
+	/* position: relative; */
 
 }
 
