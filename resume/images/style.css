@@ -79,7 +79,7 @@ p{
 	padding: 30px 60px 30px 70px;
 	box-shadow: 1px 1px 5px #e2e2e2;
 	border-right: solid 10px #3d5997;
-	background: url(bg.png)bottom left /45% no-repeat;
+	/* background: url(bg.png)bottom left /45% no-repeat; */
 }
 	
 .row{
@@ -210,7 +210,7 @@ ul .beginner::after{
 	.container { 
 		padding: 0;
 		border-right: none;
-		background: url(bg2.png) 80% 103% /60% no-repeat;
+		/* background: url(bg2.png) 80% 103% /60% no-repeat; */
 	}
 	.row{
 		display: flex;
@@ -246,17 +246,17 @@ ul .beginner::after{
 		font-size: 1.1rem;
 		line-height: 1.8rem;	
 	}
-	.tools{
-		margin-left: 30px;
-		margin-top: -10px;
+
+	.tools li{
+		display: inline;
+	    margin-right: 10px;
 	}
-	
 }
 @media screen and ( max-width: 460px ){
 	.container { 
 		padding: 0;
 		border-right: none;
-		background: url(bg2.png) 120% 102% /80% no-repeat;
+		/* background: url(bg2.png) 120% 102% /80% no-repeat; */
 	}
 }
 
@@ -265,7 +265,7 @@ ul .beginner::after{
 		font-size: 12px;
 	}
 	.container { 
-		background: url(bg2.png) 120% 100% /80% no-repeat;
+		/* background: url(bg2.png) 120% 100% /80% no-repeat; */
 	}
 
 	.col-2 , .col-4{
@@ -283,12 +283,6 @@ ul .beginner::after{
 		top: 10px;
 		right: 10px;
 	}
-	.tools{
-		margin-top: -20px;
-		margin-left: 20px;
-	}
-
-
 		
 }
 

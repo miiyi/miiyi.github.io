@@ -284,6 +284,19 @@ p{
 	0% { transform: translate(4px ,0);}
 	100% {transform: translate(-4px ,0);}
 }
+@media screen and ( max-width: 821px ){
+	.portfolio li{
+		width: 34vw;
+		margin: 2vw;
+		height: 20vw;
+	}
+	.portfolio li img{
+		width: 34vw;
+		height: 20vw;
+		object-fit: cover;
+	}
+
+}
 
 @media screen and ( max-width: 720px ){
 	html{
